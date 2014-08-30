@@ -13,6 +13,7 @@ namespace Kdyby\Replicator;
 use Nette;
 use Nette\Forms\Controls\SubmitButton;
 use Nette\Utils\Callback;
+use Haxtip;
 
 
 
@@ -23,7 +24,7 @@ use Nette\Utils\Callback;
  * @method \Nette\Application\UI\Form getForm()
  * @property \Nette\Forms\Container $parent
  */
-class Container extends Nette\Forms\Container
+class Container extends Haxtip\Forms\Container
 {
 
 	/** @var bool */
