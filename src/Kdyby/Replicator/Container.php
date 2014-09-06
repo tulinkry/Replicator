@@ -34,7 +34,7 @@ class Container extends Haxtip\Forms\Container
 	public $createDefault;
 
 	/** @var string */
-	public $containerClass = 'Nette\Forms\Container';
+	public $containerClass = 'Haxtip\Forms\Container';
 
 	/** @var callable */
 	protected $factoryCallback;
